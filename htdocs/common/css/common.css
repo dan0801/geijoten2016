@@ -1,3 +1,7 @@
+html {
+	width: 100%;
+	height: 100%;
+}
 /**-----------------------**/
 
 .pr10 {
@@ -23,6 +27,7 @@ a:hover {
 h2 {
     text-align: center;
 	font-size: 145%;
+	padding: 65px 0 20px 0;
 }
 h2 span {
     font-size: 75%;
@@ -57,18 +62,9 @@ h2 span.brown:after {
 .brown {color: #906a32;}
 
 
-.text{
+.text {
     text-align: center;
 }
-
-.m-auto{
-    margin: 0 auto;
-}
-
-#contentsArea{
-   
-}
-
 
 /**clear
 -----------------------**/
@@ -94,6 +90,8 @@ header {
 	background-position: bottom;
 	background-repeat: no-repeat;
 	vertical-align: bottom;
+	background-color: #ffffff;
+	z-index: 600;
 }
 h1 {
     font-size: 133%;
@@ -126,6 +124,7 @@ header .snsBtn {
 	background-position: center;
 	background-image: url(../../images/main_bg.jpg);
 	position: relative;
+	background-attachment: fixed;
 }
 .logo {
 	position: absolute;
@@ -141,8 +140,8 @@ header .snsBtn {
 	background-attachment: scroll, fixed;
 	background-repeat: no-repeat;
 	background-size: contain;
-	height: 500px;
     width:100%;
+	padding-bottom: 150px;
 }
 
 /**area01
@@ -151,12 +150,12 @@ header .snsBtn {
 	background-image: url(../../images/area01_line.png), url(../../images/area01_line.png);
 	z-index: 100;
 }
-
-#area01 ul{
-    width:1000px;
+.area01_img {
+    width:615px;
+	margin: 0 auto;
+	padding-top: 20px;
 }
-
-#area01 li{
+#area01 li {
     display: inline-block;
 }
 
@@ -176,29 +175,6 @@ header .snsBtn {
 	z-index: 200;
 }
 
-#area02 dt,dd{
-    width: 498px;
-    height: 220px;
-    float: left;
-}
-
-#area02 dl{
-    width: 1000px; 
-}
-
-.b-left{
-    border-left: 2px solid #e07c3a;
-}
-.b-right{
-    border-right: 2px solid #e07c3a;
-}
-
-.mt45{
-    margin-top: 45px;    
-    display: inline-block;
-}
-
-
 
 
 
@@ -206,19 +182,22 @@ header .snsBtn {
 -----------------------**/
 #area03 {
 	background-image: url(../../images/area03_line.png), url(../../images/area03_line.png);
-	z-index: 300;
-    
+	z-index: 300;   
 }
-
-
-
-#area03 dt, #area03 dd{
-    display: inline-block;
-    float: left;
+.movie img {
+	vertical-align: bottom;
 }
-
-
-
+.movie li {
+	margin-bottom: 17px;
+}
+.movie {
+	width: 400px;
+	margin: 0 auto;
+}
+.movieTit {
+	text-align: center;
+	display: block;
+}
 
 
 
@@ -234,7 +213,9 @@ header .snsBtn {
 	background-image: url(../../images/area04_line.png), url(../../images/area04_line.png);
 	z-index: 400;
 }
-
+.map {
+	
+}
 
 
 
