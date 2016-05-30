@@ -61,11 +61,14 @@ h2 span.brown:after {
     text-align: center;
 }
 
-#area01 li{
-    display: inline;
-    width: 150px;
-    height: 150px;
+.m-auto{
+    margin: 0 auto;
 }
+
+#contentsArea{
+   
+}
+
 
 /**clear
 -----------------------**/
@@ -139,6 +142,7 @@ header .snsBtn {
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 500px;
+    width:100%;
 }
 
 /**area01
@@ -148,8 +152,13 @@ header .snsBtn {
 	z-index: 100;
 }
 
+#area01 ul{
+    width:1000px;
+}
 
-
+#area01 li{
+    display: inline-block;
+}
 
 
 
@@ -167,14 +176,27 @@ header .snsBtn {
 	z-index: 200;
 }
 
+#area02 dt,dd{
+    width: 498px;
+    height: 220px;
+    float: left;
+}
 
+#area02 dl{
+    width: 1000px; 
+}
 
+.b-left{
+    border-left: 2px solid #e07c3a;
+}
+.b-right{
+    border-right: 2px solid #e07c3a;
+}
 
-
-
-
-
-
+.mt45{
+    margin-top: 45px;    
+    display: inline-block;
+}
 
 
 
@@ -185,9 +207,15 @@ header .snsBtn {
 #area03 {
 	background-image: url(../../images/area03_line.png), url(../../images/area03_line.png);
 	z-index: 300;
+    
 }
 
 
+
+#area03 dt, #area03 dd{
+    display: inline-block;
+    float: left;
+}
 
 
 
