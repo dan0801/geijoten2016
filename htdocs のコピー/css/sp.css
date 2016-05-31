@@ -1,0 +1,57 @@
+@media screen and (max-width:640px){
+
+img{
+	max-width: 100%;
+	height: auto;
+	width /***/:auto;　
+}
+header {
+	padding: 10px 0;
+}
+h1 {
+	padding-left: 10px;
+}
+header,
+footer,
+#contentsArea div {
+	background-size: 100% 2px;
+}
+.headerNav {
+	display: none;
+}
+header .snsBtn {
+	display: none;
+}
+h1 img {
+	width: 65%;
+}
+.logo {
+	width: 50%;
+}
+
+	
+h2 span.red:after {
+	border: 1px solid #d64161;
+}
+h2 span.orange:after {
+	border: 1px solid #e07c3a;
+}
+h2 span.green:after {
+	border: 1px solid #43a23a;
+}
+h2 span.brown:after {
+	border: 1px solid #906a32;
+}
+.footerNav {
+    width: 80%;
+	padding-top: 30px;
+}
+.footerNav li {
+    font-size: 70%;
+    padding: 7px;
+    text-align: center;
+}
+.copy {
+	font-size: 80%;
+}
+}
